@@ -4,7 +4,7 @@
     <sampleQuery>select * from {table} where a='cat' and b='dog';</sampleQuery>
   </meta>
   <bindings>
-    <select itemPath="" produces="XML">
+    <select itemPath="zoo" produces="XML">
       <urls>
         <url>http://fake.url/{a}</url>
       </urls>
